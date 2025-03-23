@@ -82,4 +82,5 @@ weight = 40
 
 [services]
   [services.disqus]
-    shortname = "disqus_ccXfUjhu6B"
+    shortname = "dauclouds-blog"
+    enableInDev = true
