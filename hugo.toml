@@ -79,3 +79,7 @@ weight = 40
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[services]
+  [services.disqus]
+    shortname = "disqus_ccXfUjhu6B"
