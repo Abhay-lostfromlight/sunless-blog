@@ -1,8 +1,10 @@
-baseURL = 'www.daucloud.com'
+baseURL = 'https://www.daucloud.com/'
 languageCode = 'en-US'
 Title = 'Daucloud'
 theme = "void"
 defaultContentLanguage = "en"
+relativeURLs = true
+canonifyURLs = true
 
 # 社交媒体链接
 [params]
