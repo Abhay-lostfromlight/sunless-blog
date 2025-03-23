@@ -19,7 +19,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   [params.social]
     github = "https://github.com/Daucloud"
     zhihu = "https://zhihu.com/people/daucloud"
-    email = "1311700152@qq.com"
+    email = "xinyuan-23@mails.tsinghua.edu.cn"
   [params.avatar]
     url = "https://img.picgo.net/2025/03/23/20250323133122762dc0742d658f46dec.jpeg"
 [[menus.main]]
