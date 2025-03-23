@@ -1,120 +1,120 @@
 ---
-title: "Markdown 格式测试"
-date: 2024-03-23
+title: "Markdown Format Test"
+date: 2025-03-23
 draft: false
-tags: ["markdown", "测试"]
-categories: ["教程"]
+tags: ["markdown", "test"]
+categories: ["tutorials"]
 ---
 
-# Markdown 格式测试
+# Markdown Format Test
 
-这篇文章展示了各种 Markdown 格式元素在本博客上的渲染效果。
+This article demonstrates how various Markdown format elements render on this blog.
 
-## 1. 基础文本格式
+## 1. Basic Text Formatting
 
-**粗体文本** 和 _斜体文本_
+**Bold text** and _italic text_
 
-**_粗斜体文本_**
+**_Bold and italic text_**
 
-~~删除线文本~~
+~~Strikethrough text~~
 
-<u>下划线文本</u>
+<u>Underlined text</u>
 
-## 2. 列表
+## 2. Lists
 
-### 无序列表
+### Unordered Lists
 
-- 项目 1
-- 项目 2
-  - 子项目 2.1
-  - 子项目 2.2
-- 项目 3
+- Item 1
+- Item 2
+  - Sub-item 2.1
+  - Sub-item 2.2
+- Item 3
 
-### 有序列表
+### Ordered Lists
 
-1. 第一步
-2. 第二步
-   1. 子步骤 2.1
-   2. 子步骤 2.2
-3. 第三步
+1. First step
+2. Second step
+   1. Sub-step 2.1
+   2. Sub-step 2.2
+3. Third step
 
-### 任务列表
+### Task Lists
 
-- [x] 已完成的任务
-- [ ] 未完成的任务
-- [ ] 另一个未完成的任务
+- [x] Completed task
+- [ ] Incomplete task
+- [ ] Another incomplete task
 
-## 3. 链接和图片
+## 3. Links and Images
 
-[Hugo 官方网站](https://gohugo.io/)
+[Hugo Official Website](https://gohugo.io/)
 
 ![Hugo Logo](https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg)
 
-## 4. 引用
+## 4. Blockquotes
 
-> 这是一段引用的文字。
+> This is a quoted text.
 >
-> 这是引用的第二段落。
+> This is the second paragraph of the quote.
 
-## 5. 代码
+## 5. Code
 
-行内代码 `print("Hello, World!")`
+Inline code `print("Hello, World!")`
 
-代码块：
+Code blocks:
 
 ```python
 def greet(name):
     """
-    一个简单的问候函数
+    A simple greeting function
     """
     print(f"Hello, {name}!")
 
-# 调用函数
+# Call the function
 greet("World")
 ```
 
 ```javascript
-// JavaScript代码示例
+// JavaScript code example
 function calculateSum(a, b) {
   return a + b;
 }
 
-console.log(calculateSum(5, 10)); // 输出: 15
+console.log(calculateSum(5, 10)); // Output: 15
 ```
 
-## 6. 表格
+## 6. Tables
 
-| 名称 | 年龄 | 职业     |
-| ---- | ---- | -------- |
-| 张三 | 25   | 工程师   |
-| 李四 | 30   | 设计师   |
-| 王五 | 28   | 产品经理 |
+| Name | Age | Profession      |
+| ---- | --- | --------------- |
+| John | 25  | Engineer        |
+| Lisa | 30  | Designer        |
+| Mike | 28  | Product Manager |
 
-## 7. 水平分割线
+## 7. Horizontal Rules
 
 ---
 
-## 8. 数学公式
+## 8. Math Equations
 
-行内公式: $E = mc^2$
+Inline equation: $E = mc^2$
 
-独立公式:
+Block equation:
 
 $$
 \frac{d}{dx}(x^n) = nx^{n-1}
 $$
 
-## 9. 脚注
+## 9. Footnotes
 
-这是一个有脚注的文本[^1]。
+This is a text with a footnote[^1].
 
-[^1]: 这是脚注的内容。
+[^1]: This is the footnote content.
 
-## 10. 定义列表
+## 10. Definition Lists
 
-术语 1
-: 定义 1
+Term 1
+: Definition 1
 
-术语 2
-: 定义 2a
-: 定义 2b
+Term 2
+: Definition 2a
+: Definition 2b

@@ -3,8 +3,16 @@ languageCode = 'en-US'
 Title = 'Daucloud'
 theme = "void"
 defaultContentLanguage = "en"
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = true
+# 忽略特定的警告日志
+ignoreLogs = ['warning-goldmark-raw-html']
+
+# 允许在Markdown中使用原始HTML
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # 社交媒体链接
 [params]
