@@ -83,3 +83,9 @@ weight = 40
 [services]
   [services.disqus]
     shortname = 'dauclouds-blog'
+
+# 隐私设置
+[privacy]
+  [privacy.disqus]
+    disable = false
+    simple = true  # 使用简化模式，减少第三方请求
