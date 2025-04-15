@@ -3,7 +3,7 @@ title: "Markdown Format Test"
 date: 2025-03-23
 draft: false
 tags: ["markdown", "test"]
-categories: ["tutorials"]
+categories: ["Misc"]
 ---
 
 # Markdown Format Test
