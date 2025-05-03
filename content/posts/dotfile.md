@@ -91,7 +91,7 @@ data:
 
 这样，在 `A` 上`chezmoi apply`并询问 What is your email address 时，我们键入 `A@test.com`，在`B`中键入 `B@test.com`即可。
 
-可以使用 `chezmoi data` 查看各种内置变量。除此之外，模版还有很多妙用，其余可参看 [chezmoi 官方文档](除此之外，模版还有很多妙用，)。
+可以使用 `chezmoi data` 查看各种内置变量。除此之外，模版还有很多妙用，其余可参看 [chezmoi 官方文档](https://www.chezmoi.io/user-guide/templating/)。
 
 # 脚本
 
@@ -124,9 +124,9 @@ Enter passphrase (leave empty to autogenerate a secure one):
 Confirm passphrase:
 ```
 
-注意记录公钥(`age193wd0hfuhtjfsunlq3c83s8m93pde442dkcn7lmj3lspeekm9g7stwutrl`)，后面会用到。 
+注意记录公钥(`age193wd0hfuhtjfsunlq3c83s8m93pde442dkcn7lmj3lspeekm9g7stwutrl`)，后面会用到。
 
-3. `echo key.txt.age >> .chezmoiignore`: 防止 chezmoi 在家目录下创建 `key.txt.age` 
+3. `echo key.txt.age >> .chezmoiignore`: 防止 chezmoi 在家目录下创建 `key.txt.age`
 4. 创建一个脚本，使得第一次 `chezmoi apply` 时解密 `key.txt.age`为私钥 `key.txt`
 
 ```shell
@@ -153,7 +153,7 @@ encryption = "age"
 EOF
 ```
 
-`.chezmoi.<format>.tmpl`是 chezmoi 的一类特殊文件，用于创建配置文件 `~/.local/share/chezmoi/chezmoi.<format>` 
+`.chezmoi.<format>.tmpl`是 chezmoi 的一类特殊文件，用于创建配置文件 `~/.local/share/chezmoi/chezmoi.<format>`
 
 6. 添加想要加密的文件
 
