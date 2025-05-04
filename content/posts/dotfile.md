@@ -72,7 +72,7 @@ chezmoi add ~/.gitconfig --template
 这会在`~/.local/share/chezmoi`下创建一个名为`dot_gitconfig.tmpl`的文件。
 模版有很多妙用，譬如我在机器 A 上的 Git 使用邮箱`A@test.com`，在机器 B 上使用`B@test.com`，则我们可以这样实现：
 
-1. `chezmoi edit ~/.gitignore`，并编辑其中内容如下：
+1. `chezmoi edit ~/.gitconfig`，并编辑其中内容如下：
 
 ```shell
 [user]
