@@ -24,7 +24,7 @@ sh -c "$(curl -fsLS get.chezmoi.io)"
 当然，身为大陆用户，有的时候连接 GitHub 有困难，可以运行如下命令：
 
 ```shell
-curl -fsLS get.chezmoi.io | sed 's/github\.com/githubfast.com/g' | sh -s --
+sh -c "$(curl -fsLS https://hub.gitmirror.com/raw.githubusercontent.com/Daucloud/dotfiles/refs/heads/main/install.sh)"
 ```
 
 如果你已经在`https://github.com/$GITHUB_USERNAME/dotfiles`托管了你的点文件，也可以运行如下命令一键安装+配置：
