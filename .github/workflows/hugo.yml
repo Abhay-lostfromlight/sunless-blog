@@ -31,7 +31,13 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build with Hugo
+      - name: Install Node.js dependencies
+        run: npm install
+
+      - name: Install TailwindCSS CLI
+        run: npm install -g tailwindcss
+
+      - name: Build
         run: hugo --minify
 
       - name: Upload artifact
