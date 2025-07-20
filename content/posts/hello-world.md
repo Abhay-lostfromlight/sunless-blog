@@ -1,6 +1,7 @@
-+++
-date = '2025-07-20T17:40:44+05:30'
-draft = true
-title = 'Hello World'
-categories = 'Misc'
-+++
+---
+title: "Hello Worldd"
+date: 2024-07-20T12:00:00+08:00
+draft: false
+---
+
+Hello Worldd
