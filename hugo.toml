@@ -18,7 +18,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [params]
   [params.social]
     github = "https://github.com/Abhay-lostfromlight"
-    twitter = "https://twitter.com/YourTwitterUsername"
+    twitter = "https://twitter.com/realsweabhay"
     email = "abhaysharma8887@mail.com"
   [params.avatar]
     url = "/avatar.jpeg"
