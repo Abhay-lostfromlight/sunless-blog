@@ -1,4 +1,4 @@
-baseURL = 'https://www.sunless.com/'
+baseURL = 'https://abhay-lostfromlight.github.io/sunless-blog/'
 languageCode = 'en-US'
 Title = 'Sunless'
 theme = "void"
