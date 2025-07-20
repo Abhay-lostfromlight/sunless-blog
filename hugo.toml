@@ -1,7 +1,7 @@
 baseURL = 'https://abhay-lostfromlight.github.io/sunless-blog/'
 languageCode = 'en-US'
 Title = 'Sunless'
-theme = "themes"
+theme = "void"
 defaultContentLanguage = "en"
 relativeURLs = false
 canonifyURLs = true

@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Favicon configuration -->
+<link rel="icon" type="image/jpeg" href="{{ "/avatar.jpeg" | relURL }}" sizes="16x16" />
+<link rel="icon" type="image/jpeg" href="{{ "/avatar.jpeg" | relURL }}" sizes="32x32" />
+<link rel="icon" type="image/jpeg" href="{{ "/avatar.jpeg" | relURL }}" sizes="96x96" />
+<link rel="shortcut icon" href="{{ "/avatar.jpeg" | relURL }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/avatar.jpeg" | relURL }}" />
+<!-- End of favicon configuration -->
+
+{{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}
